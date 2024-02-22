@@ -1,0 +1,75 @@
+/* Base styles */
+body {
+  text-align: center;
+  font-family: Roboto, sans-serif; /* Modern and clean font */
+  background-color: #f0f2f5; /* Light gray background */
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh; /* Fill viewport height */
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #34495e; /* Darker blue */
+}
+
+/* Container for form and result */
+.calculator-container {
+  background-color: #fff; /* White background for form */
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Input field */
+input[type="date"] {
+  width: 250px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Button */
+button {
+  background-color: #4caf50; /* Green */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+/* Result paragraph */
+#result {
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .calculator-container {
+    padding: 20px;
+  }
+
+  input[type="date"],
+  button {
+    width: 100%;
+  }
+}
